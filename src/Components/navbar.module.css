@@ -1,0 +1,118 @@
+.navbar {
+  height: 8vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  background-image: linear-gradient(
+    to right,
+    rgb(112, 2, 112),
+    rgb(197, 36, 63),
+    red
+  );
+}
+
+.col_logo {
+  width: 22vh;
+  padding: 0.5vh 4vh;
+}
+
+.col_logo > img {
+  height: 6vh;
+}
+
+.vl {
+  border-left: 1px solid black;
+  height: 8vh;
+}
+
+.vl1 {
+  border-left: 1px solid black;
+  height: 8vh;
+  display: none;
+}
+
+.col_tabs {
+  display: flex;
+  margin: 0 3vh;
+  gap: 3vh;
+  font-size: 2.5vh;
+  line-height: 8vh;
+  text-transform: uppercase;
+}
+
+.tabs {
+  text-decoration: none;
+  color: white;
+  padding: 0 1vh;
+}
+
+.tabs1 {
+  text-decoration: none;
+  color: white;
+  padding: 0 1vh;
+}
+
+.links {
+  display: flex;
+  line-height: 8vh;
+  font-size: 2vh;
+  padding: 0 2vh;
+}
+
+.links > a {
+  text-decoration: none;
+  color: white;
+  padding: 0 1vh;
+}
+.access {
+  position: absolute;
+  right: 0;
+  display: flex;
+  margin: 0 2vh;
+  gap: 2.5vh;
+  font-size: 2vh;
+  line-height: 8vh;
+}
+
+.dropdown {
+  display: none;
+  font-size: 5vh;
+  color: white;
+  padding: 1.2vh 0vh;
+}
+
+@media screen and (max-width: 1000px) {
+  .dropdown,
+  .vl1 {
+    display: unset;
+  }
+  .col_tabs {
+    margin: 0 2vh;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .links {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .vl,
+  .vl1,
+  .tabs,
+  .links {
+    display: none;
+  }
+
+  .dropdown {
+    position: fixed;
+    left: 3vh;
+  }
+  .col_logo > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
