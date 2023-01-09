@@ -1,0 +1,13 @@
+.container {
+  padding-top: 10vh;
+  text-align: center;
+}
+
+.head {
+  font-size: 5vh;
+}
+
+.head > span {
+  color: rgb(185, 3, 205);
+  font-weight: 700;
+}

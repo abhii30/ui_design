@@ -4,15 +4,19 @@ import "./App.css";
 import Book from "./Components/book";
 import CheckIn from "./Components/checkIn";
 import Manage from "./Components/manage";
-import Navbar from "./Components/navbar";
+import Navbar from "./Components/Navbar/navbar";
 import SignUp from "./Components/signUp";
 import SignIn from "./Components/signIn";
+import Markers from "./Components/Markers/markers";
+import Places from "./Components/Places/places";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar />
+        <Markers />
+        <Places />
         <Routes>
           <Route path="/book" element={<Book />} />
           <Route path="/checkIn" element={<CheckIn />} />

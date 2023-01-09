@@ -1,0 +1,24 @@
+.container {
+  text-align: center;
+  margin: 2vh 0vh;
+  gap: 1vh;
+}
+
+.container > label {
+  font-size: 12px;
+  padding-right: 2vh;
+  font-weight: 600;
+}
+
+.container > input {
+}
+
+.bottom_line {
+  padding-top: 1vh;
+  border-bottom: 2px solid rgb(170, 170, 170);
+  width: 55vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
