@@ -11,3 +11,35 @@
   color: rgb(185, 3, 205);
   font-weight: 700;
 }
+
+.places {
+  display: flex;
+  justify-content: center;
+  gap: 3vh;
+  flex-wrap: wrap;
+  padding: 3vh 0vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border: 2px solid black;
+  padding: 2vh 12vh 3vh 1vh ;
+}
+
+.place {
+  color: rgb(185, 3, 205);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.details {
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 375px) {
+  .head {
+    font-size: 4vh;
+  }
+}

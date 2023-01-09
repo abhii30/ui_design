@@ -1,0 +1,31 @@
+.container {
+    padding:1vh 0;
+  background-color: gainsboro;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5vh;
+  margin: 2vh;
+}
+
+.box {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 40vh;
+  height: auto;
+}
+
+.image_box {
+  padding: 2vh;
+  width: 25vh;
+  height: 20vh;
+}
+
+.image_box > img {
+  height: 20vh;
+  width: 35vh;
+}

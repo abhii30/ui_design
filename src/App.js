@@ -9,6 +9,7 @@ import SignUp from "./Components/signUp";
 import SignIn from "./Components/signIn";
 import Markers from "./Components/Markers/markers";
 import Places from "./Components/Places/places";
+import About from "./Components/About/about";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Navbar />
         <Markers />
         <Places />
+        <About />
         <Routes>
           <Route path="/book" element={<Book />} />
           <Route path="/checkIn" element={<CheckIn />} />
