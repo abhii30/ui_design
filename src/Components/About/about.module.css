@@ -1,5 +1,5 @@
 .container {
-    padding:1vh 0;
+  padding: 1vh 0;
   background-color: gainsboro;
 }
 
@@ -28,4 +28,13 @@
 .image_box > img {
   height: 20vh;
   width: 35vh;
+}
+
+@media screen and (min-width: 1013px) {
+    .container{
+        margin-top: 5vh;
+    }
+  .boxes {
+    margin: 4vh 0 10vh 0vh;
+  }
 }
